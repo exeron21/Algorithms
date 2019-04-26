@@ -1,4 +1,4 @@
-package win.bojack.win.algorithm4.ch01;
+package win.bojack.algorithm4.ch01;
 
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdIn;

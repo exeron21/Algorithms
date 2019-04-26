@@ -3,6 +3,7 @@ package com.jimmysun.algorithms.chapter1_1;
 import java.awt.Color;
 
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdRandom;
 
 public class Ex31 {
@@ -18,8 +19,11 @@ public class Ex31 {
 	}
 
 	public static void main(String[] args) {
-		int N = Integer.parseInt(args[0]);
-		double p = Double.parseDouble(args[1]);
+		int N = StdIn.readInt();
+//		int N = Integer.parseInt(args[0]);
+//		double p = Double.parseDouble(args[1]);
+		double p = StdIn.readDouble();
+
 		if (p < 0 || p > 1) {
 			System.out.println("p is not valid!");
 			return;

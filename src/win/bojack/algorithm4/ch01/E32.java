@@ -1,11 +1,7 @@
-package win.bojack.win.algorithm4.ch01;
+package win.bojack.algorithm4.ch01;
 
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.StdRandom;
-
-import java.awt.*;
 
 public class E32 {
 

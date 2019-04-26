@@ -11,6 +11,9 @@ public class Ex09 {
         do {
             // 使用 & 符合相对除 2 提升一定性能
             result[--index] = (char)('0' + (value & 1));
+//            << : 左移运算符，num << 1,相当于num乘以2
+//            >> : 右移运算符，num >> 1,相当于num除以2
+//            >>>: 无符号右移，忽略符号位，空位都以0补齐
             value = value >>> 1;
         } while (value != 0);
         return new String(result, index, bufLen - index);

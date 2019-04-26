@@ -1,4 +1,4 @@
-package win.bojack.win.algorithm4.ch01;
+package win.bojack.algorithm4.ch01;
 
 public class E33_Matrix {
     public static double dotMul(double[] x , double[] y) {

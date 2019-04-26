@@ -1,4 +1,4 @@
-package win.bojack.javadatastructure.ch06_recursion;
+package win.bojack.javadatastructure.ch06_recursion_quicksort;
 
 /**
  * 计算给定的正整数的阶乘
@@ -14,7 +14,7 @@ public class Factorial {
 
 
     public static void main(String[] args) {
-        int i = 6;
+        int i = 12;
         int x = doTheMath(i);
         System.out.println(i + " 的阶乘是： " + x);
     }

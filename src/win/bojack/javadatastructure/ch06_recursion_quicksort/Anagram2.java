@@ -1,4 +1,4 @@
-package win.bojack.javadatastructure.ch06_recursion;
+package win.bojack.javadatastructure.ch06_recursion_quicksort;
 
 public class Anagram2 {
 

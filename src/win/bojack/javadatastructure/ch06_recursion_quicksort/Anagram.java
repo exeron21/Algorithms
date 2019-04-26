@@ -1,10 +1,10 @@
-package win.bojack.javadatastructure.ch06_recursion;
+package win.bojack.javadatastructure.ch06_recursion_quicksort;
 
 /**
  * 给出一个单词，计算出所有可能的字母组合
  */
 public class Anagram {
-    static String word = "cats";
+    static String word = "catsm";
     static int len = word.length();
     static char[] arr = new char[len];
     static int count = 0;

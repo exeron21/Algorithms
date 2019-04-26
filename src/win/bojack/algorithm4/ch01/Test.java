@@ -1,4 +1,6 @@
-package win.bojack.win.algorithm4.ch01;
+package win.bojack.algorithm4.ch01;
+
+import edu.princeton.cs.algs4.StdOut;
 
 public class Test {
     public static void main(String[] args) {
@@ -27,6 +29,9 @@ public class Test {
         y[3] = 4;
         y[4] = 5;
 
+        int i = '你';
+        StdOut.println(i);
+        StdOut.println(-1>>>1);
 
         double dou = E33_Matrix.dotMul(x,y);
         System.out.println(dou);

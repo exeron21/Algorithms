@@ -1,4 +1,4 @@
-package win.bojack.javadatastructure.ch06_recursion;
+package win.bojack.javadatastructure.ch06_recursion_quicksort;
 
 public class MergeTwoArray {
     public static void main(String[] args) {

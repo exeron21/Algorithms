@@ -1,4 +1,4 @@
-package win.bojack.javadatastructure.ch06_recursion;
+package win.bojack.javadatastructure.ch06_recursion_quicksort;
 
 import static win.bojack.javadatastructure.ch03_basicsorting.BasicSort.genData;
 import static win.bojack.javadatastructure.ch03_basicsorting.BasicSort.insertSort;
