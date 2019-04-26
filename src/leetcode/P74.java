@@ -39,7 +39,7 @@ public class P74 {
             if (result > target) {
                 if (idy > 0)
                     result = matrix[idx][--idy];
-            } else if (result < target) {
+            } else {
                 if (idx <m-1)
                     result = matrix[++idx][idy];
             }
