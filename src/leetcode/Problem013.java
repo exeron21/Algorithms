@@ -58,7 +58,8 @@ public class Problem013 {
 //        String s = "IV";
 //        String s = "IX";
 //        String s = "LVIII";
-        String s = "MCMXCIV";
+//        String s = "MCMXCIV";
+        String s = "MMMDDDCCCLLLXXXVVVIII";
         int r = new Solution().romanToInt(s);
         System.out.println(r);
     }
