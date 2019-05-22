@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * 把数字改为字符串表达方式：
+ * 把数字改为字符串表达方式：(遇J进位)
  * 1->A
  * 2->B
  * 3->C
@@ -11,7 +11,7 @@ package leetcode;
  */
 public class Problem168_2 {
     public static void main(String[] args) {
-        String s = new Solution().convertToTitle(20);
+        String s = new Solution().convertToTitle(11);
         System.out.println(s);
     }
 
