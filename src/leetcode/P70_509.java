@@ -23,6 +23,9 @@ public class P70_509 {
 
         int sum = so.fib(20);
         System.out.println(sum);
+
+        int sum1 = so.fib(21);
+        System.out.println(sum1);
     }
 
     static class Solution {
@@ -54,9 +57,20 @@ public class P70_509 {
                 tmp = a1 + a2;
                 a1 = a2;
                 a2 = tmp;
-                System.out.println(i + "===" + tmp);
             }
             return tmp;
+        }
+
+        private int fib2 (int n) {
+            int i0 = 0;
+            int i1 = 1;
+            int sum = 0;
+            for (int i = 2; i<=n; i++) {
+                sum = i0 + i1;
+                i0 = i1;
+                i1 = sum;
+            }
+            return sum;
         }
 
         private int fib(int n) {
