@@ -37,6 +37,21 @@ public class Problem167 {
     }
     static class Solution {
         public int[] twoSum(int[] nums, int target) {
+            int left = 0;
+            int right = nums.length -1;
+            while(left < right) {
+                int sum = nums[left] + nums[right];
+                if (sum == target) {
+                    break;
+                } else if (sum > target) {
+                    right -- ;
+                } else {
+                    left ++;
+                }
+            }
+            return new int[]{left + 1, right + 1};
+        }
+        public int[] twoSum1(int[] nums, int target) {
             HashMap<Integer, Integer> map = new HashMap<>();
             int m = 0;
             for (int num : nums) {
